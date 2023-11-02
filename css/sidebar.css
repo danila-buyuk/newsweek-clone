@@ -1,0 +1,47 @@
+.col-xs-3 {
+  padding-top: 1em;
+}
+.side-article > a {
+  font-weight: bold;
+  font-size: large;
+  color: #181818;
+}
+.side-article {
+  padding: 1.5em;
+  margin-right: 1em;
+  border-top: 1px solid #e5e5e5;
+  text-align: left;
+  width: 90%;
+}
+.side-article:first-child {
+  border-top: 0;
+}
+.latest {
+  text-transform: uppercase;
+  color: red;
+  text-align: left;
+  font-size: 20px;
+  margin: 1.5em 0 1em 0;
+}
+.bullet-list {
+  list-style: square;
+  list-style-position: inside;
+  color: red;
+  padding-left: 0;
+}
+.btn-default {
+  margin: 1em 5%;
+  padding: 1em 2em;
+  background-color: #e5e5e5;
+  color: #757575;
+  font-size: larger;
+}
+@media screen and (max-width: 991px) {
+  .latest, .side-article {
+    text-align: center;
+    width: 100%;
+  }
+  .btn-default {
+    width: 90%;
+  }
+}
